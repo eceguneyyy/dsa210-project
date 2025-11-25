@@ -1,26 +1,19 @@
-# Impact of Urban Heat Waves on Mortality Rates Across Major Cities  
+# Impact of Air Pollution and Socioeconomic Factors on Mortality Rates Across Countries
 
 ## Project Overview
-This project investigates how urban heat waves influence mortality rates across major cities, taking into account the effects of urbanization and climate patterns. As global temperatures rise, cities experience the "urban heat island" effect, where dense urban areas become significantly warmer than surrounding regions. By analyzing climate, population and heat data, this project aims to identify whether more urbanized regions face higher mortality risks during extreme heat events.
+This project investigates how air pollution levels (PM2.5) and socioeconomic indicators (such as GDP per capita and health expenditure) relate to mortality rates across countries. The goal is to analyze whether countries with higher pollution and lower economic well-being experience higher mortality.
 
 ## Motivation  
 
-Heat waves are becoming more common with climate change and can cause health problems, especially in crowded cities. Cities often stay hotter because of buildings and fewer green areas. This project studies how temperature and city size affect death rates and aims to help understand the health effects of hot weather.
+I’ve recently become more curious about how air pollution and economic conditions affect public health in different countries. Since these two factors vary a lot across the world, I wanted to understand whether they play a role in mortality rates. This project gives me a chance to explore that question using real data and the tools we learned in the course.
 
 ## Data Sources 
-- **NOAA Global Climate Data:**  
-  Monthly and annual temperature anomalies, heat wave frequency, and average high temperatures for selected cities and countries.  
-  [NOAA Climate Data Online](https://www.ncdc.noaa.gov/cdo-web/)  
+- PM2.5 Air Pollution Data: Annual fine particulate matter (PM2.5) concentrations for all countries. This dataset provides country-year pollution values used as the main environmental exposure variable. Collected from WorldBank.
 
-- **World Bank Urbanization Dataset:**  
-  Urban population percentage, city population density, and GDP per capita for each country.  
-  [World Bank Data](https://data.worldbank.org/indicator/SP.URB.TOTL.IN.ZS)  
+- Income Level & Region Data: Contains country-level attributes such as income group (High, Upper-middle, Lower-middle, Low income) and geographic region classifications. These variables are used to analyze socioeconomic differences and compare mortality patterns across development levels.
 
-- **WHO Mortality Database:**  
-  Annual total and cause-specific mortality rates per country, including heat-related or respiratory deaths when available.  
-  [WHO Mortality Database](https://www.who.int/data/data-collection-tools/who-mortality-database)  
+- Mortality Data: Provides cause-specific and all-cause mortality estimates for each country. This dataset is used as the main health outcome variable to examine how air pollution exposure and income levels relate to mortality.
 
 ## Data Collection and Preparation
-Data will be obtained from official open data portals (NOAA, World Bank, WHO) in CSV format.
-Datasets will be cleaned, standardized, and merged using country or city identifiers.
-The combined dataset will be used for exploratory data analysis and statistical modeling to examine the relationship between temperature anomalies, urbanization, and mortality rates.
+The datasets used in this project were obtained from two primary sources: the World Bank Data Portal and the Institute for Health Metrics and Evaluation (IHME).
+After downloading, all datasets will be cleaned and converted into a consistent country–year structure. Country names and codes will be standardized to merge the datasets. The final merged dataset will include PM2.5 levels, income group classifications, and mortality rates for each country and year.

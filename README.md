@@ -26,3 +26,39 @@ After downloading, all datasets will be cleaned and converted into a consistent 
 - Null Hypothesis 3 (H₀₃): Income level does not significantly affect PM2.5 exposure levels.
 - Alternative Hypothesis 3 (Hₐ₃): Countries with lower income levels have higher PM2.5 exposure levels.
 
+## EDA Process
+I started the EDA process by gathering and combining three datasets: PM2.5 air pollution data from the World Bank (2020), mortality rates from the IHME Global Burden of Disease Study (2023), and country income classifications from the World Bank metadata.
+Because PM2.5 measurements were only available up to 2020 and the mortality data was from 2023, I used the most recent year from each dataset. Since my analysis is cross-sectional, comparing countries at one point in time was enough for the goals of this project.
+After merging everything using country codes and names, I cleaned the data by removing missing values and standardizing the income groups. The final dataset included 172 countries that had complete information for PM2.5 levels, mortality rates, and income categories.
+Once the data was ready, I moved on to the visualization stage.
+
+
+## Hypothesis Testing
+To check whether the relationships I observed in the EDA were statistically meaningful, I ran hypothesis tests using Pearson correlation to test the relationship between PM2.5 and mortality, and one-way ANOVA to compare mortality rates and PM2.5 levels across different income groups. The significance level was set at α = 0.05.
+
+
+## Hypothesis Test 1: PM2.5 vs Mortality Rate
+- Pearson’s r: –0.339
+- p-value: 0.0000055
+- R²: 0.115
+- Direction: Negative
+- Conclusion: Reject H₀ (significant)
+
+Interpretation: Countries with higher PM2.5 sometimes have lower mortality, but the relationship is weak. This likely reflects demographic differences rather than pollution directly lowering mortality. PM2.5 alone does not explain mortality well.
+
+## Hypothesis Test 2: Income Groups – Mortality Rates
+- F: 14.52
+- p-value: 0.00000018
+- η²: 0.206
+- Conclusion: Reject H02 (Significant)
+
+Interpretation: Mortality rates are significantly different across income groups. Income level explains about 21% of the variation. The main reason is demographics: high-income countries have older populations with higher natural mortality, while lower-income countries have younger populations.
+
+## Hypothesis Test 3: PM2.5 Levels Across Income Groups
+- F-statistic: 18.41
+- p-value: 0.000000002
+- Effect size (η²): 0.247
+- Conclusion: Reject H₀₃ (Significant)
+
+Interpretation: PM2.5 levels are significantly different across income groups. Income level explains about 25% of the variation in pollution exposure. Low-income countries face much higher air pollution than wealthy countries. This makes sense because wealthier nations have stricter environmental regulations, cleaner energy sources, and better pollution control technology.
+

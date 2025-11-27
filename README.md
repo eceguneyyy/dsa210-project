@@ -17,3 +17,12 @@ I’ve recently become more curious about how air pollution and economic conditi
 ## Data Collection and Preparation
 The datasets used in this project were obtained from two primary sources: the World Bank Data Portal and the Institute for Health Metrics and Evaluation (IHME).
 After downloading, all datasets will be cleaned and converted into a consistent country–year structure. Country names and codes will be standardized to merge the datasets. The final merged dataset will include PM2.5 levels, income group classifications, and mortality rates for each country and year.
+
+## Hypothesis
+- Null Hypothesis 1 (H₀₁): PM2.5 levels do not have a significant impact on mortality rates across countries.
+- Alternative Hypothesis 1 (Hₐ₁): Higher PM2.5 levels are associated with higher mortality rates across countries.
+- Null Hypothesis 2 (H₀₂): Income level does not significantly affect mortality rates.
+- Alternative Hypothesis 2 (Hₐ₂): Countries with lower income levels have higher mortality rates.
+- Null Hypothesis 3 (H₀₃): Income level does not significantly affect PM2.5 exposure levels.
+- Alternative Hypothesis 3 (Hₐ₃): Countries with lower income levels have higher PM2.5 exposure levels.
+

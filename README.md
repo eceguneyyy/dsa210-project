@@ -62,3 +62,15 @@ Interpretation: Mortality rates are significantly different across income groups
 
 Interpretation: PM2.5 levels are significantly different across income groups. Income level explains about 25% of the variation in pollution exposure. Low-income countries face much higher air pollution than wealthy countries. This makes sense because wealthier nations have stricter environmental regulations, cleaner energy sources, and better pollution control technology.
 
+
+## Visualization Stage
+During the visualization stage, I looked at how PM2.5 levels, mortality rates, and income groups relate to each other.
+- PM2.5 vs Mortality Rate:
+There was a negative correlation between PM2.5 and mortality rates. Surprisingly, countries with higher pollution sometimes had lower mortality rates. This suggested that factors like healthcare quality or population age structure might be influencing the results.
+- Income Groups – Mortality Rates:
+High-income countries had the highest mortality rates, while lower-middle-income countries had the lowest. This likely reflects demographic differences—wealthier countries tend to have older populations, which naturally increases mortality.
+- Income Groups – PM2.5 Levels:
+Lower-income countries showed noticeably higher PM2.5 levels. Low-income countries had the highest average PM2.5 (around 40 µg/m³), while high-income countries had the lowest (around 15 µg/m³).
+- Distribution Patterns:
+Both PM2.5 and mortality rate distributions were right-skewed. Most countries were in moderate ranges, but a few had very extreme values.
+

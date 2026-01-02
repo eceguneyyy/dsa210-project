@@ -74,3 +74,54 @@ Lower-income countries showed noticeably higher PM2.5 levels. Low-income countri
 - Distribution Patterns:
 Both PM2.5 and mortality rate distributions were right-skewed. Most countries were in moderate ranges, but a few had very extreme values.
 
+## Limitations
+
+- This study is based on cross-sectional data from a single year, so it cannot show
+how air pollution and mortality change over time or establish causality.
+
+- Another limitation is the lack of demographic information such as age structure or
+healthcare access, which likely affects mortality rates and may explain some of the
+unexpected results.
+
+- Finally, the analysis uses overall mortality rather than pollution-specific causes
+of death, which limits how directly PM2.5 effects can be observed.
+
+## Findings
+
+This project analyzed the relationship between PM2.5 air pollution, income level,
+and mortality rates across 172 countries.
+
+One key finding is that PM2.5 and mortality showed a statistically significant but
+negative correlation. In other words, countries with higher pollution sometimes had
+lower mortality rates. This result was unexpected and suggests that PM2.5 alone does
+not explain mortality well. Factors such as population age structure and healthcare
+quality likely play a stronger role.
+
+Income level was a much clearer factor. Mortality rates differed significantly across
+income groups, with high-income countries having higher mortality rates. This is most
+likely due to older populations in wealthier countries rather than worse health
+conditions.
+
+On the other hand, PM2.5 levels were clearly higher in low-income countries. This
+supports the idea that economic development, environmental regulations, and access to
+clean technology strongly affect pollution exposure.
+
+Overall, the findings show that while air pollution is unevenly distributed across
+countries, mortality rates are influenced by a combination of socioeconomic and
+demographic factors rather than pollution levels alone.
+
+## Conclusion
+
+This project examined how air pollution and socioeconomic factors relate to mortality
+rates across countries using global data.
+
+The results show that income level plays a stronger role in explaining mortality
+differences than PM2.5 levels alone. While air pollution is clearly higher in
+low-income countries, mortality patterns are influenced by demographic and
+socioeconomic factors such as population age structure and healthcare conditions.
+
+Overall, the findings suggest that air pollution should be studied together with
+economic and demographic context rather than as an isolated factor. This project
+helped demonstrate how combining data from different sources and applying statistical
+analysis can reveal more nuanced patterns in global public health.
+
